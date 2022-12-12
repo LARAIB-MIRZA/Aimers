@@ -1,0 +1,43 @@
+.description-box{
+    height: 40vh;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* description heading---------------------------- */
+
+.description-box .description-heading {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.description-box .description-heading h3{
+    color: var(--primary-text-color);
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    
+}
+.description-box .description-heading p{
+    color: var(--secondary-text-color);
+    font-size: 0.8rem;
+    font-family: Ubuntu, sans-serif !important;
+    margin-top: 5px;
+}
+
+/* description content ------------------------------ */
+
+.description-box .description-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.description-box .description-content p{
+    font-family: Chivo, sans-serif !important;
+    font-size: 1.3rem;
+    color: #001219 !important;
+}

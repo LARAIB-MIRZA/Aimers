@@ -1,0 +1,37 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.border-styled-button{
+    border-radius: 6px;
+    border: 1.7px solid var(--secondary-accent-color);
+    text-align: center;
+}
+
+.background-styled-button{
+    border-radius: 6px;
+    border: 1.7px solid var(--secondary-accent-color);
+    background-color: var(--primary-accent-color);
+    text-align: center;
+}
+
+.glassmorphic{
+    cursor: default;
+    overflow: auto;
+    border-radius: 8px;
+    border: 2.5px solid  #1b98e033;
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 5px 6px #2773a5; 
+}
+
+.glassmorphic-black{
+    cursor: default;
+    overflow: auto;
+    border-radius: 8px;
+    border: 2.5px solid  #1b98e033;
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 5px 6px #243d4e; 
+}

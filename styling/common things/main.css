@@ -1,0 +1,54 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Lato:wght@400;700&family=Poppins&family=Roboto&family=Ubuntu:ital@1&display=swap');
+/* fonts </> */
+html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#161a1d ;
+    --secondary-text-color: #22333b;
+
+    --primary-accent-color: #0582ca; 
+    --secondary-accent-color: #1b98e0;
+
+    --global-sweet-color: #a8dadc;
+    --global-dark-color: #2a9d8f;
+    
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+body{
+    font-family: chico, sans-serif;
+    background: linear-gradient(45deg, tomato,#00ffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: var(--primary-text-color);
+}
+p{
+    font-family: poppins, sans-serif;
+    color: var(--secondary-text-color);
+}
+
+.main-container{
+    width: 90vw;
+    margin: auto;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}

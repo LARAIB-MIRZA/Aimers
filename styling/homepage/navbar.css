@@ -1,0 +1,59 @@
+/* logo */
+
+.logo h1{
+    text-shadow: 2px 2px 5px #2773a5;
+    transition: all 0.3s;
+}
+.logo h1:hover{
+    text-shadow: 2px 2px 5px #233a49;
+}
+
+/* nav bar */
+.main-nav{
+    margin: auto;
+    height: 10vh;
+    margin-bottom: 5px;
+    padding-left:20px;
+    padding-right:20px;
+
+    background: linear-gradient(to top left, #ffffff33, var(--global-sweet-color));
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 8px #2773a5;
+
+    transition: all 0.7s;
+}
+
+.main-nav:hover{
+    margin: auto;
+    height: 10vh;
+    margin-bottom: 5px;
+    padding-left:17.5px;
+    padding-right:17.5px;
+
+    background: linear-gradient(to top left, #ffffff33, var(--global-sweet-color));
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 8px #2773a5;
+}
+
+/* nav links ------------------------------------------- */
+
+.link-box{
+    display: inline;
+}
+.link-box p{
+    display: inline;
+}
+
+.link{
+    display: inline;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.signin-box{
+    padding: 10px;
+}
+
+.signup-box{
+    padding: 10px;
+}
